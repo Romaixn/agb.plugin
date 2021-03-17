@@ -48,7 +48,7 @@ abstract class Blocks {
 		$args = wp_parse_args( $args, $defaults );
 
 		global $AdvancedGutenbergBlocks;
-		$AdvancedGutenbergBlocks->registered_blocks[] = $args;
+		//$AdvancedGutenbergBlocks->registered_blocks[] = $args;
 	}
 
 	public static function get_registered_blocks() {
